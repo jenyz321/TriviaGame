@@ -1,0 +1,15 @@
+.jumbotron {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 35px;
+    background-color: coral;
+    color: lightskyblue;
+        
+}
+.btn {
+    display: flex; 
+    justify-content: center;
+}
+body {
+    background-image: url("../images/pastelbackground.jpg"); 
+}
