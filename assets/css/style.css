@@ -11,5 +11,12 @@
     justify-content: center;
 }
 body {
-    background-image: url("../images/pastelbackground.jpg"); 
+    background-image: url("../images/wood2.jpg"); 
+}
+.container {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    padding: 10pt;
+    text-align: center;
+    font-weight: bolder;
 }
