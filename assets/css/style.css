@@ -1,19 +1,28 @@
 .jumbotron {
     font-family: 'Cinzel', serif;
     text-align: center;
-    font-size: 35px;
-    background-color: coral;
+    font-size: 75px;
+    background-color: rgb(255, 138, 95);
     color: lightskyblue;
         
 }
-.btn {
-    display: flex; 
-    justify-content: center;
+#start {
+    display: block; 
+    max-width: auto;
+    margin: auto;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    padding: 10px;
+    background-color: rgb(44, 41, 41);
+    color: white;
+
+    
+
 }
 body {
     background-image: url("../images/wood2.jpg"); 
 }
-.container {
+.quizQuestions {
     font-family: 'Cinzel', serif;
     font-size: 20px;
     padding: 10pt;
