@@ -1,31 +1,56 @@
-.jumbotron {
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 75px;
+#wrapper {
+    width: 960px;
+    min-height: 80%;
+    box-sizing: border-box;
+    padding: 10% 0;
+    margin: 5% auto;
     background-color: rgb(255, 138, 95);
-    color: lightskyblue;
+    
         
 }
-#start {
-    display: block; 
-    max-width: auto;
-    margin: auto;
+#sub-wrapper {
+    position: relative;
+    top: 20%;
+}
+button {
     font-family: 'Cinzel', serif;
     font-size: 50px;
     padding: 10px;
     background-color: rgb(44, 41, 41);
-    color: white;
-
-    
-
+    color: rgb(95, 255, 175);
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    border: 0;
 }
 body {
+    text-align: center;
     background-image: url("../images/wood2.jpg"); 
 }
-.quizQuestions {
+#quiz-area h2 {
     font-family: 'Cinzel', serif;
     font-size: 20px;
     padding: 10pt;
     text-align: center;
     font-weight: bolder;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 75px;
+    color: lightskyblue;
+}
+h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 75px;
+    color: lightskyblue;
+}
+h3 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 75px;
+    color: lightskyblue;
 }
